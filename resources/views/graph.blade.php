@@ -21,15 +21,15 @@
     <input type="checkbox" id="directedSwitch">
     <span class="slider round"></span>
   </label><br>
-  <form action="{{ route('logout') }}" method="POST">
-    @csrf
-    <button class="logout" type="submit">Logout</button>
-</form>
   <div class="main">
         <div class="navbar">
             <div class="icon">
                 <h2 class="logo">GRAPH</h2>
             </div>
+            <form action="{{ route('logout') }}" method="POST">
+    @csrf
+    <button class="logout" type="submit">Logout</button>
+</form>
 
             
 

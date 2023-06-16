@@ -149,14 +149,10 @@ input:checked + .slider:before {
   max-width: max-content;
 }
 .adjacency-matrix {
-  border-collapse: collapse;
   margin: 10px;
   justify-content: center;
 }
 
-.matrix-bordered td {
-  border: 1px solid black;
-}
 
 .matrix-cell {
   width: 30px;
@@ -241,5 +237,10 @@ ul li a:hover{
   color: #069bdb;
 }
 .logout{
-
+  float: right;
+  margin-left: 30px;
+  background-color: #069bdb;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-top: 20px
 }
