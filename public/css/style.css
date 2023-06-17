@@ -85,7 +85,7 @@ button:active {
   margin-left: 10px;
 }
 #clear{
-  background-color: red;
+  background-color: transparent;
 }
 
 .switch input {
@@ -237,10 +237,20 @@ ul li a:hover{
   color: #069bdb;
 }
 .logout{
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
   float: right;
   margin-left: 30px;
-  background-color: #069bdb;
+  background-color: transparent;
   padding-left: 20px;
   padding-top: 10px;
-  margin-top: 20px
+  margin-top: 20px;
+
+}
+.logout:hover{
+  color: #069bdb;
+  background-color: transparent;
 }

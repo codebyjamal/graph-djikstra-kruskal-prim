@@ -13,8 +13,8 @@
             </div>
             <div class="menu">
                   <ul>
-                    <li><a href="file:///C:/Users/soft/Desktop/projet/about.html">ABOUT</a></li>
-                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="{{ route('about') }}">ABOUT</a></li>
+                    <li><a href="{{ route('services') }}">SERVICE</a></li>
                     <li><a href="#">CONTACT US</a></li>
                    </ul>
             </div>

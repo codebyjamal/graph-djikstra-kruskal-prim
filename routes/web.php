@@ -17,6 +17,12 @@ use App\Http\Controllers\AuthController;
 Route::get('/graph', function () {
     return view('graph');
 })->name("graph");
+Route::get('/about', function () {
+    return view('about');
+})->name("about");
+Route::get('/services', function () {
+    return view('services');
+})->name("services");
 
 Route::get('/signup', [AuthController::class, 'showSignup'])->name('signup');
 Route::post('/signup', [AuthController::class, 'signup'])->name('signup.submit');
